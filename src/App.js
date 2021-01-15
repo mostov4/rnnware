@@ -7,7 +7,6 @@ import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect, useSelector } from "react-redux";
 // eslint-disable-next-line
 import firebase from "firebase"
-// import { useHistory } from "react-router-dom";
 
 const HomeFurnitureThree = lazy(() =>
   import("./pages/home/HomeFurnitureThree")

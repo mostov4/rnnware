@@ -12,14 +12,13 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
           <h3>RNN-WARE</h3>
-          {/* <img alt="" src={process.env.PUBLIC_URL + footerLogo} /> */}
         </Link>
       </div>
-      <p>
+            <p>
         © 2020{" "}
-        <a href="//hasthemes.com" rel="noopener noreferrer" target="_blank">
+        {/* <a href="#">
           RNN-WARE
-        </a>
+        </a> */}
         .<br /> All Rights Reserved
       </p>
     </div>

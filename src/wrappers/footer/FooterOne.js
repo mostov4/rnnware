@@ -59,13 +59,9 @@ const FooterOne = ({
             <div className="footer-widget mb-30 ml-30">
               <div className="footer-list">
                 <ul>
+
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/about"} style={{marginLeft:"1em"}}>About us</Link>
-                  </li>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Store location
-                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/about"} >About us</Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "/contact"}>

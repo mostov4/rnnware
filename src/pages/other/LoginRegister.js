@@ -55,8 +55,7 @@ const LoginRegister = ({ location }) => {
         userName: userName
       })
 
-      history.push("/login-register")
-      window.location.reload()
+      history.push("/")
 
     }).catch(function (error) { 
       // Handle Errors here.
