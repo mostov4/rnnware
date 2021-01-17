@@ -166,7 +166,7 @@ export const RetailerProductForm = () => {
                     <Form.Group as={Col} style={{ minWidth: "26em", width: "32%" }}>
                         <Form.Label style={{ position: "relative", minWidth: "26em", width: "100%", marginBottom: 0 }} htmlFor="imgsrcinput"><Form.Label>Images</Form.Label>
 
-                            <Form.File.Input id="imgsrcinput" title="" onChange={((e) => imgUpload(e))} style={{ backgroundColor: "white", opacity: "0", zIndex: 999, position: "absolute" }} />
+                            <Form.File.Input id="imgsrcinput" title="" onChange={((e) => imgUpload(e))} style={{ backgroundColor: "white", opacity: "0", zIndex: 999, position: "absolute" }}required={true} />
                             <Form.Control id="imgsrcinput" readOnly={true} value={state?.image ? "image selected" : ""} placeholder="Upload image" required={true} style={{ backgroundColor: "white" }} />
                         </Form.Label> </Form.Group>
 
